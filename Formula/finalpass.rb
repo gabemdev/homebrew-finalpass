@@ -1,6 +1,6 @@
 class Finalpass < Formula
   desc "Execution-first pre-PR checks for flaky tests and mutation coverage"
-  homepage "https://github.com/gabemdev/finalpass"
+  homepage "https://finalpass.dev"
   url "https://registry.npmjs.org/@finalpass/finalpass-cli/-/finalpass-cli-0.1.0.tgz"
   sha256 "05acb7d1d115fdf384fa48f1f94d273fcf1dbb41cbf9e23229fe1e572e01f1d5"
   license "MIT"
