@@ -1,8 +1,8 @@
 class Finalpass < Formula
   desc "Execution-first pre-PR checks for flaky tests and mutation coverage"
   homepage "https://finalpass.dev"
-  url "https://registry.npmjs.org/@finalpass/finalpass-cli/-/finalpass-cli-0.1.3.tgz"
-  sha256 "34d8ddf77659c025325717930e9b306fc39d13f0a03924b1de7875f3fd76d5bb"
+  url "https://registry.npmjs.org/@finalpass/finalpass-cli/-/finalpass-cli-0.1.5.tgz"
+  sha256 "0a5d22621a65839db5da6ac18c3d3021e530873b8a755b588b3516b0c5bc36f7"
   license "MIT"
   depends_on "node"
   def install
@@ -11,6 +11,6 @@ class Finalpass < Formula
   end
   test do
     output = shell_output("#{bin}/finalpass --version")
-    assert_match "0.1.3", output
+    assert_match "0.1.5", output
   end
 end
